@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sanke ?
+title: Snake ?
 date: 2017-07-19T13:30:00.000Z
 author: Thomas Harrison Winmill
 categories:
