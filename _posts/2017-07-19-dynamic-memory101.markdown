@@ -1,40 +1,35 @@
 ---
 layout: post
-title: Dynamic Memory 101
+title: Sanke ?
 date: 2017-07-19T13:30:00.000Z
-author: James Huxtable
+author: Thomas Harrison Winmill
 categories:
   - Blog
-  - Low-Level Programming
-  - Development
-  - Nothing Interesting
-img: post01.jpg
+
+img: Post_Snake_Title Image.jpg
 thumb: c_thumb.jpg
 published: true
 ---
 
-<b>Dynamic Memory</b> is the use of memory during runtime. It is dynamic in that the compiler is unable to ascertain the exact amount of memory its allocation will require. This differs from static allocation where its size is determined at compile time and its location in memory is the stack. When objects are dynamically allocated they use a special region of memory called the heap. Let's look at those differences. <!--more-->
+<b>AboutSnake</b> The most recent project to be completed is the game Snake. the game Snake is an old classix where a player takes control of a 2d (crude outline) snake. The player collects blocks to points on the game as to grow and obtain more points. and can not huit either the edge of the game view board or itself. the bigger the snake gets the more difficult it is as the playerr must think about his or her options when collect points as to not hit themselves.  <!--more-->
 
-When using static allocation, the memory we use is stored in a very fast contigous block known as the stack. Each function contributes to the stack placing any static data on to it. When the function is unwound or exited, the memory is freed. The stack has limits in that it is restricted in size and data can not exist outside of it's original scope. Dynamic memory instead uses the region known as the heap. The heap is a large region of memory where allocations and deallocations can happen during runtime and do not obey scope. For example, If you were to allocate memory inside the function, when the function exits the memory remains allocated, it is not freed. This can lead to memory leaks, so care needs to be taken. 
+<b>Creating Snake Grid</b>
 
-
-#### Why do we use it?
-Because the stack is restrictive
+the grid area in which the player is sin will be a 2D array grid in which i hope to change into a dynamic array so that users will be able to create a gride size of their choosing. The grid must stop the player from hitting the edges of the grid as well as dislpay a border so that the player knows not to hit the edges. this can be built with asci art similar to dugeon death which later can be replaced whith a sprite.
 
 
-#### How do we use it?
+#### Header
+Text
+
+#### Header
+Code Box thingy
 ```C++
 int  static_int  = 2;
 int* dynamic_int = new int(2);
 ```
+Fancy Code
+much wow
 
-#### How do we free it?
-```C++
-if ( dynamic_int )
-{ 
-  delete dynamic_int;
-  dynamic_int = nullptr;
-}
-```
+<b>Bold Writing</b>
 
-Dynamic memory is a complex and detailed area of C++ programming. There is still much to learn, but understanding why it exists and how it compares to static allocation can aid you in it's usage and understanding. Till next time.
+
