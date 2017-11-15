@@ -15,11 +15,12 @@ published: true
 
 <b>Creating Snake Grid</b>
 
-the grid area in which the player is sin will be a 2D array grid in which i hope to change into a dynamic array so that users will be able to create a gride size of their choosing. The grid must stop the player from hitting the edges of the grid as well as dislpay a border so that the player knows not to hit the edges. this can be built with asci art similar to dugeon death which later can be replaced whith a sprite.
+#### The Board
+The game boars is the first point in which i decided would be best to start. By building the board i could the init snake features as well as test the gameplay for errors or changes. i decided to use a vector for the game board as alot of the concern of memory spacing as well as constructing and deconstructing would be taken out. mt initial thought process was to build a two dimensional array like the X and Y axis however come to realise this would cause many issues so the use of a single array and have it loop through to a certain point creating a Y axis would be better.
 
+#### GameStates
+the use of game states with the gam
 
-#### Header
-Text
 
 #### Header
 Code Box thingy
